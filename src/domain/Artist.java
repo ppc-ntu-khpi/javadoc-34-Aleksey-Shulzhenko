@@ -1,5 +1,8 @@
 package domain;
-
+/**
+ * Представляє художника як працівника з певними навичками.
+ * Наслідує загальні характеристики від {@link Employee}.
+ */
 public class Artist extends Employee {
 
     public Artist(String[] skiils, String name, String jobTitle, int level, String dept) {

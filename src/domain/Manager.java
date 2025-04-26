@@ -1,4 +1,7 @@
 package domain;
+/**
+ * Представляє менеджера, який є працівником і керує масивом інших працівників.
+ */
 public class Manager extends Employee {
 
     public Manager(Employee[] employees, String name, String jobTitle, int level, String dept) {

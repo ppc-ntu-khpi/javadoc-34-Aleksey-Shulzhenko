@@ -1,4 +1,8 @@
 package domain;
+/**
+ * Представляє редактора, який є художником і має вподобання щодо редагування
+ * (електронне або паперове).
+ */
 public class Editor extends Artist {
 
     public Editor(boolean electronicEditing, String[] skiils, String name, String jobTitle, int level, String dept) {
